@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0e0e0e;
+  color: white;
+  text-align: center;
+}
+
+/* HEADER */
+header {
+  background: #ff7a18;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* MENU */
+nav {
+  background: #111;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffa500;
+}
+
+/* CONTENU */
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+audio, video {
+  width: 100%;
+  margin-top: 10px;
+}
